@@ -86,7 +86,12 @@ a
 .text-green
 {
     color: blue;
-    filter: blur(3px);
+   
+}
+#btn
+{
+    filter: blur(5px);
+   
 }
 
 
