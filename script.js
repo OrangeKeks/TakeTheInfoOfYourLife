@@ -1,5 +1,15 @@
-let pos = document.getElementById('btn');
+let pos = document.getElementById("btn");
 let timer = 10;
+
+
+
+
+
+  
+
+
+
+
 function timers()
 {
 
@@ -17,12 +27,6 @@ function turnon()
 }
 
 pos.addEventListener("click",  turnon);
-
-
-
-
-
-
 
 
 let searchBtn = document.getElementById("searchBtn");
@@ -53,13 +57,13 @@ else
 decor.classList.remove("d-none");
 }
 load.classList.add("d-none");
-searchValue.value = "";
+searchValue.value = null;
 }
 
 function generetaCard()
 {
    card.innerHTML =
-   `<img src="${dataCard.avatar.url}">
+   `<img src="${dataCard.avatar_url}">
    <h1>${dataCard.login}</h1>
    <p>${dataCard.bio}</p>
     <nav>

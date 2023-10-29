@@ -86,12 +86,12 @@ a
 .text-green
 {
     color: blue;
-   
-}
-#btn
-{
     filter: blur(10px);
-   
+}
+.text-green:hover
+{
+    transition: 0.5f;
+    filter: blur(0px);
 }
 #load 
 {
